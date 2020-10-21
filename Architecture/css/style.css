@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body{
+    position: relative;
+  }
+/*header*/
+header{
+    background-color: black;
+    color: white;
+
+}
+.menu{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu-items{
+    display: flex;
+    list-style: none;
+}
+.menu-items li a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.menu-items li a:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.icon-menu{
+    display: none;
+}
+/* image et text */
+.bgimage{
+    background-image: url("../image/architecture-3121009_1920.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.bgimage h1{
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.btn-orange{
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    background-color: orange;
+    width: 10%;
+    border-radius: 10px;
+}
+/*welcome*/
+.welcome{
+    text-align: justify;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box-welcome{
+    color: white;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+}
+.box-items{
+    background-image: url('../image/architecture-3121009_1920.jpg');
+    margin: 20px ;
+    height: 200px;
+    width: 200px;
+    border: blue solid 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.text{
+    color: blue;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*projet recent */
+.recent-projet {
+    background-image: url('../image/ribblehead-viaduct-2443085_1920.jpg');
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*.recent-projet h1{
+    color: blue;
+    margin: 20px;
+    text-transform: uppercase;
+}
+*/
+.box-projet{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box-projet img{
+    margin: 20px 0;
+    height: 300px;
+    width: 300px;
+}
+/*expert say */
+.expert-say{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.expert-say p{
+    text-align: justify;
+}
+.expert-say img{
+    width: 200px;
+    height: 200px;
+    border: blue 5px solid;
+    border-radius: 50%;
+}
+.box-expert{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h2{
+    margin: 20px 0;
+}
+.box{
+    background-color: orange;
+    height: 30px;
+    width: 70px;
+    margin: 20px 20px;
+}
+/*get */
+.get{
+    background-image: url('../image/ribblehead-viaduct-2443085_1920.jpg');
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.get-text{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: bolder;
+}
+.box-get{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.box-get img{
+    height: 50px;
+    width: 50px;
+    margin: 10px 20px;
+}
+/*footer */
+footer{
+    background-color: black;
+    width: 100%;
+    position:absolute;
+    bottom:-100px;
+}
+footer h2{
+    color: white;
+    text-align: center;
+}
+/* about html*/
+.image-about{
+    display: flex;
+}
+.image-about img{
+    height: 500px;
+    width: 300px;
+}
+.about-text{
+    margin: 0 20px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.about-text h1{
+    font-weight: bolder;
+}
+.about-text p{
+    margin: 5px 0;
+}
